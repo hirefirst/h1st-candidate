@@ -1,4 +1,6 @@
-# h1st-candidate
+h1st-candidate
+---
+
 Candidate object with validation and persistence, all wrapped as `npm` module.
 
 ### Technical documentation
