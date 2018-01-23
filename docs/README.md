@@ -14,7 +14,7 @@ chmod +x ./setup-git-local.sh
 ./setup-git-local.sh
 ```
 
-### Development machines
+### Development platforms
 
 We use `debian` or `ubuntu` machines (`POSIX-compatible` among other things and `apt-get` on it).
 
