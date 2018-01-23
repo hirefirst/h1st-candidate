@@ -2,9 +2,9 @@ Technical documentation
 ---
 
 
-## Development machine
+### Development machine
 
-### Setup of git identity (in specific project only)
+##### Setup of git identity (in specific project only)
 
 Download the `bash` script file Then follow the steps of:
 
@@ -14,11 +14,11 @@ chmod +x ./setup-git-local.sh
 ./setup-git-local.sh
 ```
 
-### Development platforms
+##### Development platforms
 
 We use `debian` or `ubuntu` machines (`POSIX-compatible` among other things and `apt-get` on it).
 
-### json-pretty
+##### json-pretty
 
 To install `json-pretty` please use following script:
 
@@ -32,8 +32,7 @@ to use it (system-wide):
 json-pretty [your-filename]
 ```
 
-
-### NodeJS v9.3.0
+##### NodeJS v9.3.0
 
 In order to install `node` and `nodejs` aliases please use following script:
 
@@ -50,17 +49,17 @@ if [ -d "$HOME/bin" ] ; then
 fi
 ```
 
-### MongoDB 3.6
+### Installing MongoDB 3.6 (Community)
 
 Installing `mongodb` ver. `3.6` follow steps below:
 
-#### Ubuntu 14.04
+##### Ubuntu 14.04
 
 ```bash
 echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
 ```
 
-#### Ubuntu 16.04
+##### Ubuntu 16.04
 
 ```bash
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
@@ -73,15 +72,15 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org=3.6.2 mongodb-org-server=3.6.2 mongodb-org-shell=3.6.2 mongodb-org-mongos=3.6.2 mongodb-org-tools=3.6.2
 ```
 
-## Sandbox database (MongoDb)
+### Sandbox database (MongoDb)
 
-#### Blank database, collections and indices (indexes)
+##### Blank database, collections and indices (indexes)
 
 In order to build your database and apply all `DDL` please run the following sequence: 
 
 [Open DB instruction &raquo;&raquo;](../db/README.md)
 
-#### Vanilla development database
+##### Vanilla development database
 
 To populate the database with data examples please run:
 
