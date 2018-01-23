@@ -2,6 +2,8 @@ Technical documentation
 ---
 
 
+## Development machine
+
 ### Setup of git identity (in specific project only)
 
 Download the `bash` script file Then follow the steps of:
@@ -55,3 +57,17 @@ then common to all:
 sudo apt-get update
 sudo apt-get install -y mongodb-org=3.6.2 mongodb-org-server=3.6.2 mongodb-org-shell=3.6.2 mongodb-org-mongos=3.6.2 mongodb-org-tools=3.6.2
 ```
+
+## Sandbox database (MongoDb)
+
+#### Blank database, collections and indices (indexes)
+
+In order to build your database and apply all `DDL` please run the following sequence: 
+
+[Open DB instruction &raquo;&raquo;](../db/README.md)
+
+#### Vanilla development database
+
+To populate the database with data examples please run:
+
+[Open DB instruction &raquo;&raquo;](../db/README.md)
