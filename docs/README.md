@@ -18,6 +18,21 @@ chmod +x ./setup-git-local.sh
 
 We use `debian` or `ubuntu` machines (`POSIX-compatible` among other things and `apt-get` on it).
 
+### json-pretty
+
+To install `json-pretty` please use following script:
+
+```bash
+wget https://raw.githubusercontent.com/hirefirst/tool-shed/master/bash/json-pretty-install.sh
+chmod +x ./json-pretty-install.sh
+```
+to use it (system-wide):
+
+```bash
+json-pretty [your-filename]
+```
+
+
 ### NodeJS v9.3.0
 
 In order to install `node` and `nodejs` aliases please use following script:
